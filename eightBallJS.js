@@ -48,11 +48,6 @@ let question = document.getElementById('input').value;
     answerField.innerHTML = `<h2 class="fade-in">No question</h2>`
     document.getElementById('input').focus();
   }
-
-
-
-
-
 }
 document.getElementById('input').addEventListener('keypress', function(e) {
   if (e.keyCode === 13) {
